@@ -1,0 +1,55 @@
+.fluid_1{
+	width: 9%;
+	display: inline-block;
+}
+.fluid_2{
+	width: 19%;
+	display: inline-block;
+}
+.fluid_3{
+	width: 29%;
+	display: inline-block;
+}
+.fluid_4{
+	width: 39%;
+	display: inline-block;
+}
+.fluid_5{
+	width: 49%;
+	display: inline-block;
+}
+.fluid_6{
+	width: 59%;
+	display: inline-block;
+}
+.fluid_7{
+	width: 69%;
+	display: inline-block;
+}
+.fluid_8{
+	width: 79%;
+	display: inline-block;
+}
+.fluid_9{
+	width: 89%;
+	display: inline-block;
+}
+.fluid_10{
+	width: 99%;
+	display: inline-block;
+}
+
+.marginT10 {
+	margin-top: 10px;}
+
+.marginL10 {
+	margin-left: 10px;
+}
+
+.marginB10 {
+	margin-bottom: 10px;
+}
+
+.marginR10 {
+	margin-right: 10px;
+}
