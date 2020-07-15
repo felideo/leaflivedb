@@ -170,6 +170,10 @@ class organismo extends \Libs\ControllerCrud {
 
 		$retorno_taxonomia    = $this->create_taxon($taxonomia);
 		$retorno_organismo    = $this->create_organismo($retorno_taxonomia, $detalhes);
+
+debug2($retorno_taxonomia);
+debug2($retorno_organismo);
+
 		$this->create_nome_popular($nomes_populares, $retorno_organismo);
 		$this->create_imagem_relacao($imagens, $retorno_organismo);
 		$this->create_posicao_geografica($posicoes_geograficas, $retorno_organismo);
@@ -181,6 +185,9 @@ class organismo extends \Libs\ControllerCrud {
 
 
 		// ZZZ: insert relação organismo, trabalho, autor;
+
+		debug2($retorno_organismo);
+		exit;
 
 		if($retorno_organismo['status']){
 			$this->view->alert_js(ucfirst($this->modulo['modulo']) . ' cadastrado com sucesso!!!', 'sucesso');
@@ -381,6 +388,7 @@ class organismo extends \Libs\ControllerCrud {
 
 				$retorno_insert_taxon = $this->model->get_insert('taxon', $insert_db);
 
+				debug2($retorno_insert_taxon);
 
 				if($retorno_insert_taxon['status'] == 1){
 					$organismo .= $retorno_insert_taxon['id'] . '-';
@@ -506,6 +514,8 @@ class organismo extends \Libs\ControllerCrud {
 		}
 
 		$insert_db = array_merge($insert_db, $detalhes);
+
+		debug2($insert_db);
 
 		return $this->model->get_insert('organismo', $insert_db);
 	}
