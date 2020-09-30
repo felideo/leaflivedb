@@ -13,7 +13,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 marginT10">
-                            <label class="folha_text_shadow">Taxon</label>
+                            <label class="folha_text_shadow">Táxon</label>
                         </div>
                         <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 marginT10">
                             <input id="taxon_nome"  name="<?php echo $this->modulo['modulo']; ?>[nome]" style="width: 100%;" value="<?php if(isset($this->cadastro)){echo $this->cadastro['nome'];} ?>" >

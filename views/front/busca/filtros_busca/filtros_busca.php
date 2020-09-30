@@ -5,7 +5,7 @@
 		background-image: url('/public/front_end/images/background/folhas_02.jpg');
 		background-color: #56bc94;
 		background-size: 100%;
-		background-blend-mode: luminosity;order:"
+		background-blend-mode: darken;"
 >
 	<div class="container">
 		<div class="row">
@@ -17,10 +17,10 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 marginT10">
 						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<label class="folha_text_shadow">Taxon</label>
+							<label class="folha_text_shadow">Táxon</label>
 						</div>
 						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<input id="taxonomy_search" data-placeholder="Taxon" style="width: 100%;">
+							<input id="taxonomy_search" data-placeholder="Táxon" style="width: 100%;">
 						</div>
 					</div>
 

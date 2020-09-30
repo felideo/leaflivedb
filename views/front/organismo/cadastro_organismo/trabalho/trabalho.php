@@ -13,10 +13,7 @@
 	    </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 marginT10">
             <div id="trabalho_conteiner" class="container">
-
-
-
-                <?php if(isset($this->organismo['organismo_relaciona_trabalho'][0]) && !empty($this->organismo['organismo_relaciona_trabalho'][0])) : ?>
+                <?php if(!empty($this->organismo['organismo_relaciona_trabalho'][0]['trabalho'][0])) : ?>
                     <?php foreach($this->organismo['organismo_relaciona_trabalho'] as $indice => $trabalho) : ?>
 
                         <?php

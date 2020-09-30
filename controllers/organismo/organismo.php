@@ -171,9 +171,6 @@ class organismo extends \Libs\ControllerCrud {
 		$retorno_taxonomia    = $this->create_taxon($taxonomia);
 		$retorno_organismo    = $this->create_organismo($retorno_taxonomia, $detalhes);
 
-debug2($retorno_taxonomia);
-debug2($retorno_organismo);
-
 		$this->create_nome_popular($nomes_populares, $retorno_organismo);
 		$this->create_imagem_relacao($imagens, $retorno_organismo);
 		$this->create_posicao_geografica($posicoes_geograficas, $retorno_organismo);
@@ -186,8 +183,6 @@ debug2($retorno_organismo);
 
 		// ZZZ: insert relação organismo, trabalho, autor;
 
-		debug2($retorno_organismo);
-		exit;
 
 		if($retorno_organismo['status']){
 			$this->view->alert_js(ucfirst($this->modulo['modulo']) . ' cadastrado com sucesso!!!', 'sucesso');
@@ -388,8 +383,6 @@ debug2($retorno_organismo);
 
 				$retorno_insert_taxon = $this->model->get_insert('taxon', $insert_db);
 
-				debug2($retorno_insert_taxon);
-
 				if($retorno_insert_taxon['status'] == 1){
 					$organismo .= $retorno_insert_taxon['id'] . '-';
 					$classificacao_taxonomica[$indice] = $retorno_insert_taxon['id'];
@@ -488,11 +481,7 @@ debug2($retorno_organismo);
 	}
 
 	private function create_organismo($retorno_taxonomia, $detalhes){
-
 		$verificar_duplicidade = $this->model->db->select("SELECT id, nome FROM organismo WHERE localizador = '{$retorno_taxonomia['localizador']}' AND ativo = 1");
-
-
-		debug2($verificar_duplicidade);
 
 		if(!empty($verificar_duplicidade)){
 			return [

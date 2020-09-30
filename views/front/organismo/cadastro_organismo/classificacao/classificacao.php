@@ -59,7 +59,7 @@
 			<!-- ******CLASSIFICACAO TAXONOMICA****** -->
 			<div class="overview col-xs-12 col-sm-12  col-md-8 col-lg-8 ">
 
-				<h2 class="title folha_text_shadow">Classificação Taxonomica</h2>
+				<h2 class="title folha_text_shadow">Classificação Taxonômica</h2>
 
 				<div class="row">
 
