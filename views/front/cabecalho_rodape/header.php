@@ -21,16 +21,16 @@
     <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 
     <!-- Global CSS -->
-    <link rel="stylesheet" href="/public/front_end/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/front_end/plugins/bootstrap/css/bootstrap.min.css?200930">
 
     <!-- Plugins CSS -->
-    <link href="/public/front_end/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- <link href="<?php //echo URL; ?>public/bootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
-    <link rel="stylesheet" href="/public/front_end/plugins/flexslider/flexslider.css">
-    <link rel="stylesheet" href="/public/front_end/plugins/animate-css/animate.min.css">
+    <link href="/public/front_end/plugins/font-awesome/css/font-awesome.min.css?200930" rel="stylesheet" type="text/css">
+    <!-- <link href="<?php //echo URL; ?>public/bootstrap/bower_components/font-awesome/css/font-awesome.min.css?200930" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="/public/front_end/plugins/flexslider/flexslider.css?200930">
+    <link rel="stylesheet" href="/public/front_end/plugins/animate-css/animate.min.css?200930">
 
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="/public/front_end/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="/public/front_end/css/styles.css?200930">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -56,14 +56,14 @@
     <!--<![endif]-->
 
     <!-- Fine Uploader  -->
-    <link href="/public/fineuploader/fine-uploader-new.css" rel="stylesheet" type="text/css">
+    <link href="/public/fineuploader/fine-uploader-new.css?200930" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="/public/fineuploader/fine-uploader.js"></script>
 
         <!-- Metis Menu Plugin JavaScript -->
         <script type="text/javascript" src="/public/bootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
         <!-- Sweet Alert -->
         <script type="text/javascript" src="/public/sweetalert-master/dist/sweetalert.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="/public/sweetalert-master/dist/sweetalert.css">
+        <link rel="stylesheet" type="text/css" href="/public/sweetalert-master/dist/sweetalert.css?200930">
         <!-- Mascaras -->
         <script type="text/javascript"  src="/public/js/jquery.mask.js"></script>
         <script type="text/javascript"  src="/public/js/mascaras.js"></script>
@@ -73,13 +73,13 @@
         <!-- Date Time Picker -->
         <script type="text/javascript" src="/public/bower_components/moment/min/moment.min.js"></script>
         <script type="text/javascript" src="/public/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-        <link rel="stylesheet" href="/public/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+        <link rel="stylesheet" href="/public/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css?200930" />
         <!-- Autosize -->
         <script type="text/javascript" src="/public/autosize-master/dist/autosize.js"></script>
         <!-- Select2 3.  -->
-        <link rel="stylesheet" type="text/css" href="/public/select2_gj/select2.css">
+        <link rel="stylesheet" type="text/css" href="/public/select2_gj/select2.css?200930">
         <script src="/public/select2_gj/select2.js"></script>
-        <!-- <link rel="stylesheet" type="text/css" href="<?php //echo URL; ?>public/css/style.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="<?php //echo URL; ?>public/css/style.css?200930"> -->
 
         <?php
             if(isset($this->js)) {
@@ -89,10 +89,10 @@
             }
         ?>
 
-        <link href="/public/css/default.css" rel="stylesheet">
+        <link href="/public/css/default.css?200930" rel="stylesheet">
         <script type="text/javascript" src="/public/js/default.js"></script>
 
-        <link href="/public/css/custom_layout.css" rel="stylesheet">
+        <link href="/public/css/custom_layout.css?200930" rel="stylesheet">
 </head>
 
 <body data-spy="scroll">
